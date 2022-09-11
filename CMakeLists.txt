@@ -49,6 +49,7 @@ include_directories(
 #  include
   ${catkin_INCLUDE_DIRS}
   ${PCL_INCLUDE_DIRS}
+  ${Qt5Widgets_INCLUDE_DIRS}
 )
 
 add_library(surfel_cloud_rviz_plugin
